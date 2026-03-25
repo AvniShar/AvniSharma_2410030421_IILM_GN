@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Booking</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>🍽️ Restaurant Booking System</h1>
+
+<form action="/book" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required><br>
+    <input type="text" name="date" placeholder="Date (DD-MM)" required><br>
+    <input type="text" name="time" placeholder="Time" required><br>
+    <button type="submit">Book Table</button>
+</form>
+
+<h2>📋 Bookings</h2>
+<ul>
+    {% for b in bookings %}
+        <li>{{ b.name }} - {{ b.date }} at {{ b.time }}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
