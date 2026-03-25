@@ -21,5 +21,5 @@ This is a web-based restaurant booking system that allows users to reserve table
 
 - Add database integration
 - Add UI design
-- Add User Authentication
+- Add User Authentication 
   
