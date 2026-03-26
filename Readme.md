@@ -16,6 +16,7 @@ This is a web-based restaurant booking system that allows users to reserve table
 - Python(Flask)
 - HTML
 - CSS
+- Bootstrap
 
 ## Future Improvements
 
